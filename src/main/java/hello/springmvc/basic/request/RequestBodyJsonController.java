@@ -95,7 +95,7 @@ public class RequestBodyJsonController {
 	(Accept: application/json)
 	 */
 	@ResponseBody
-	@PostMapping("/request-body-json-v4")
+	@PostMapping("/request-body-json-v5")
 	public HelloData requestBodyJsonV4(@RequestBody HelloData data) throws IOException {
 		log.info("username={}, age={}", data.getUsername(), data.getAge());		
 		return data;
